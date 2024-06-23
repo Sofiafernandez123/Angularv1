@@ -1,0 +1,59 @@
+/* styles.css o app.component.css */
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #343a40; /* Fondo oscuro */
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ddd;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Estilos para el título principal */
+.store-title {
+  color: #343a40;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Ajustes de margen para el contenedor principal */
+.container {
+  margin-top: 2rem;
+}
+
+/* Estilos adicionales para tablas */
+.table {
+  margin-top: 1.5rem;
+}
+
+.table thead.table-dark th {
+  text-align: center;
+}
+
+.table tbody td {
+  text-align: center;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Ajustes de margen para los enlaces de la barra de navegación en dispositivos móviles */
+.navbar-nav .nav-item {
+  margin: 0.5rem 0;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
