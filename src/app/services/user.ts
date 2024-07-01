@@ -1,4 +1,4 @@
-// src/app/interfaces/user.ts
+
 
 export interface GeoLocation {
   lat: string;

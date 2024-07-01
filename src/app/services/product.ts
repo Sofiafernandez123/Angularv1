@@ -1,4 +1,4 @@
-// src/app/interfaces/product.ts
+
 
 export interface Product {
   id: number;

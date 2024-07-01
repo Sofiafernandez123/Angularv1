@@ -1,26 +1,25 @@
-<!-- app.component.html -->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        
-      </ul>
-    </div>
+    <a class="navbar-brand" href="#">Tienda Estrella</a>
   </div>
 </nav>
 
 <div class="container mt-4">
   <h2 class="store-title text-center">Bienvenido a Tienda Estrella</h2>
 
+  <!-- Menú de opciones bajo el título -->
+  <div class="text-center mt-4">
+    <button class="btn btn-primary me-2" (click)="showUsers = true">Usuarios</button>
+    <button class="btn btn-primary" (click)="showUsers = false">Productos</button>
+  </div>
+
   <!-- Mostrar componente de usuarios si showUsers es true -->
-  <div *ngIf="showUsers">
+  <div *ngIf="showUsers" class="mt-4">
     <app-user-list></app-user-list>
   </div>
 
   <!-- Mostrar componente de productos si showUsers es false -->
-  <div *ngIf="!showUsers">
+  <div *ngIf="!showUsers" class="mt-4">
     <app-product-list></app-product-list>
   </div>
 </div>

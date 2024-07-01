@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showUsers: boolean = false; // Variable para alternar entre usuarios y productos
+  showUsers: boolean = true; // Variable para alternar entre usuarios y productos
 }
 
 
